@@ -13,17 +13,17 @@ $(()=>{
     }
 
     fetchdata(selected_item,currencies,exchange_rates);
-    countChild('div#group1',ctr_group1);
-    countChild('div#group2',ctr_group2);
-    countChild('div#group3',ctr_group3);
+    // countChild('div#group1',ctr_group1);
+    // countChild('div#group2',ctr_group2);
+    // countChild('div#group3',ctr_group3);
 
     $('select').change((event)=>{
         selected_item = event.target.value;
         clearGroup();
         fetchdata(selected_item,currencies,exchange_rates);
-        countChild('div#group1',ctr_group1);
-        countChild('div#group2',ctr_group2);
-        countChild('div#group3',ctr_group3);
+        // countChild('div#group1',ctr_group1);
+        // countChild('div#group2',ctr_group2);
+        // countChild('div#group3',ctr_group3);
     });
    
 });
