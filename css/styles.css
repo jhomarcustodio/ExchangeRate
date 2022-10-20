@@ -72,7 +72,7 @@ table td{
     #group1, #group2, #group3 {
         display: inline-block;
         width: 30%;
-        height:500px;
+        height:550px;
         border-radius: 5px;
         border: 1px solid darkgray;
         padding: 16px;
@@ -93,7 +93,7 @@ table td{
     #group1, #group2, #group3 {
         display: inline-block;
         width: 30%;
-        height:500px;
+        height:550px;
         border-radius: 5px;
         border: 1px solid darkgray;
         padding: 16px;
